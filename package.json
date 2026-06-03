@@ -1,0 +1,30 @@
+{
+  "name": "shapecord",
+  "version": "1.0.0",
+  "description": "a cool NOT modded lightweight discord client",
+  "main": "main.js",
+  "author": "R1bbit",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.shapecord.app",
+    "productName": "ShapeCord",
+
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico",
+      "signAndEditExecutable": false,
+      "signExts": []
+    },
+
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
