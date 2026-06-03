@@ -39,9 +39,8 @@ It loads the official Discord web app, but with:
 
 👉 Go to the **Releases** page and download the latest version:
 
-🔗 https://github.com/USERNAME/ShapeCord/releases
+🔗 https://github.com/Lh29007/ShapeCord/releases
 
-*(Replace USERNAME with your GitHub username)*
 
 ---
 
@@ -71,7 +70,7 @@ ShapeCord uses:
 Clone the repo:
 
 ```bash
-git clone https://github.com/USERNAME/ShapeCord
+git clone https://github.com/Lh29007/ShapeCord.git
 cd ShapeCord
 npm install
 npm start
